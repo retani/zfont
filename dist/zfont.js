@@ -109,7 +109,7 @@
       return {
         width: width * fontScale,
         height: height * fontScale,
-        lineHeight: lineHeight * fontScale,
+        lineHeight: lineHeight * fontScale * 0.8,
         lineWidths: lineWidths.map(function (width) { return width * fontScale; }),
         descender: descender * fontScale,
         ascender: ascender * fontScale,
